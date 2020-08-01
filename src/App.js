@@ -6,7 +6,7 @@ import './App.scss';
 // Need mapbox css for tooltips later in the tutorial
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN;
+mapboxgl.accessToken = "pk.eyJ1IjoibWFudGhhbnJhdXQiLCJhIjoiY2tkYmM0Zmo1MWJrMTJ6czhxbXNvbHNsaSJ9.dWVxrAn2pisqGHQSiMPgVw";
 
 function App() {
   const mapboxElRef = useRef(null); // DOM element to render map
